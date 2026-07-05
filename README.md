@@ -9,6 +9,7 @@ This project implements a structured data engineering pipeline that automates th
 * **Modular ETL Pipeline Architecture:** Separates data operations into distinct functional stages (Ingestion, Cleaning, Transformation, Filtering, and Reporting).
 * **Defensive Data Handling:** Integrates validation checks to handle missing data values, data anomalies, and mathematical type errors safely.
 * **Algorithmic Profiling:** Implements efficient data filtering logic to isolate top-tier performance tiers across vast historical records.
+* **Automated Unit Testing:** Utilizes Python's built-in unittest framework to guarantee data transformation logic and exception masking stability.
 
 ## Tech Stack & Technical Domain
 * **Language:** Python 3.x
