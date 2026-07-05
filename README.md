@@ -40,3 +40,11 @@ nba-performance-analytics/
    ```bash
    python3 src/pipeline.py
    ```
+
+## Automated Testing
+The engine includes an automated unit test suite utilizing Python's built-in `unittest` framework to guarantee data transformation logic and exception masking stability.
+
+To execute the verification test suite, run:
+```bash
+python3 -m unittest src.test_pipeline
+```
